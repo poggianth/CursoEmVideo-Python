@@ -1,0 +1,12 @@
+tabela = ('Corinthians', 'Palmeiras', 'Santos', 'Grêmio', 'Cruzeiro', 'Flamengo', 'Vasco', 'Chapecoense', 'Atlético-MG', 'Botafogo',
+          'Athletico-PR', 'Bahia', 'São Paulo', 'Fluminense', 'Sport', 'EC Vitória', 'Coritiba', 'Avaí', 'Ponte Preta', 'Atlético-GO')
+print('-=' * 30)
+print(f'Lista de times do Brasileirão: {tabela}')
+print('-=' * 30)
+print(f'Os 5 primeiros são {tabela[:5]}')
+print('-=' * 30)
+print(f'Os 4 últimos são {tabela[-4:]}')
+print('-=' * 30)
+print(f'Times em ordem alfábetica: {sorted(tabela)}')
+print('-=' * 30)
+print(f'O Chapecoense está na {tabela.index("Chapecoense") + 1}ª posição')
